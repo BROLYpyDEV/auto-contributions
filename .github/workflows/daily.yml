@@ -24,3 +24,4 @@ jobs:
           git add activity.txt
           git commit -m "chore: daily update" || echo "No changes to commit"
           git push https://x-access-token:${{ secrets.GH_TOKEN }}@github.com/${{ github.repository }}.git
+
